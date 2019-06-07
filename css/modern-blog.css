@@ -42,7 +42,7 @@
 /* Fix IE */
 
 .card__container--fix-image .card__image {
-	position: fixed;
+	/*position: fixed;*/
 }
 
 .card__content {
@@ -50,7 +50,7 @@
 	width: 100%;
 	max-width: 800px;
 	height: auto;
-	margin: 400px auto 60px;
+	margin: 40px auto 20px;
 	padding: 30px 40px 22px;
 	background: #fff;
 }
