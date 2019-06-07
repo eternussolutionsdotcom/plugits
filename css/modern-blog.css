@@ -356,3 +356,9 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
+
+.search-input {
+	font-size: 1.2em;
+    width: 50%;
+    height: 34px;
+}
