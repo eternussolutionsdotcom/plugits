@@ -34,8 +34,9 @@ layout: compress
         </h1>
         <nav class="links">
             <input type="text" 
+                   id="search-input"
                    class="search-input" 
-                   placeholder="Search Components..." />
+                   placeholder="Search Plugits..." />
             <!--
                 <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
                 <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
@@ -50,7 +51,7 @@ layout: compress
         <!-- cards -->
         <div class="wrapper">
             {% for post in site.posts %}
-            <div class="card" data-id="{{ post.id }}">
+            <div class="card plugit-card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
@@ -87,11 +88,13 @@ layout: compress
     <!-- /container -->
 </div>
 <!-- JS -->
+<script src="js/lib/jquery-2.2.4.min.js"></script>
 <script src="js/vendors/trianglify.min.js"></script>
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
 <script src="js/card-modern-blog.js"></script>
 <script src="js/modern-blog.js"></script>
+<script src="js/search.js"></script>
 </body>
 </html>
