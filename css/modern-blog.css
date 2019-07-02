@@ -362,3 +362,10 @@ a:focus {
     width: 50%;
     height: 34px;
 }
+
+.gitter-chat-button {
+	position: fixed;
+    right: 20px;
+    top: 10px;
+    z-index: 9999
+}
