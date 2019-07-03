@@ -26,7 +26,7 @@ Ever wondered if the apex software blocks can be easily installed and plugged in
 
 ### typical usage example
 ```
-// load QueryAccounts plugit pipe its output to next plugit and so on
+// load QueryAccounts plugit and pipe its output to next plugit and so on
 
 Pluggable resultPlug = plugin('QueryAccounts')
     .exec( seedData)
