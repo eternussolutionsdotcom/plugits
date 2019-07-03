@@ -3,5 +3,5 @@ title: Plugits
 description: invent, !reinvent
 keywords: components, nanoservices, plugits
 author: swapnilshrikhande
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/plugits" # the subpath of your site, e.g. /blog/
+url: "https://eternussolutionsdotcom.github.io" # the base hostname & protocol for your site
