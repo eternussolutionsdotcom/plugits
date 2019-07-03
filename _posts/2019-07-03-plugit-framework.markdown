@@ -138,7 +138,8 @@ plugin('CalculatorNanoService')
 ```
 
 ### References
-- https://en.wikipedia.org/wiki/Fluent_interface
+- [https://en.wikipedia.org/wiki/Fluent_interface](https://en.wikipedia.org/wiki/Fluent_interface)
+- [https://martinfowler.com/bliki/FluentInterface.html](https://martinfowler.com/bliki/FluentInterface.html)
 
 
 
