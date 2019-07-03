@@ -63,7 +63,7 @@
 }
 
 .card__caption {
-	font-size: 2em;
+	font-size: 1.5em;
 	max-width: 1024px;
 	margin: 0 auto;
 	padding: 35px 30px 0px;
@@ -79,7 +79,7 @@
 }
 
 .card__title {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	line-height: 1;
 	margin: 5px 0 0 0;
 	color: #3b393d;
@@ -101,7 +101,7 @@
 }
 
 .card__copy {
-	font-size: 1.25em;
+	font-size: 1.00em;
 	max-width: 1024px;
 	margin: 0 auto;
 	padding: 25px 30px 100px;
@@ -109,7 +109,7 @@
 }
 
 .card__copy p:first-of-type {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	padding: 0 0 1em 0;
 }
 
@@ -172,7 +172,7 @@
 
 @media only screen and (max-width: 400px) {
 	.card__caption {
-		font-size: 1.25em;
+		font-size: 1.00em;
 		padding: 35px 0px 0px;
 	}
 	.meta {
@@ -211,7 +211,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow: hidden;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 body.body--hidden {
